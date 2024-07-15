@@ -1,0 +1,50 @@
+*, *::before, *::after {
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+.stack-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    padding: 40px 20px;
+    display: flex;
+}
+
+.row {
+    display: flex;
+    max-width: 1140px;
+    margin: auto;
+    width: 100%;
+}
+
+.column {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#stack-section {
+    min-height: 100vh;
+}
+
+
+.stack-wrap {
+    min-height: 767px;
+}
+.stack-wrap div{
+    position: absolute;
+    bottom: 0;
+}
+
+.stack-wrap img {
+    transition: .3s opacity, filter .3s;
+}
+
+.stack-wrap:has(img:hover) img:not(:hover) {
+    filter: saturate(0.5);
+    opacity: .5;
+}
