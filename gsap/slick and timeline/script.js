@@ -97,7 +97,7 @@ jQuery(function ($) {
         })
 
         selector.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-            timeline.tweenFromTo(`part${currentSlide}`, `part${nextSlide}`)
+            timeline.tweenTo(`part${nextSlide}`)
         });
     });
 });
