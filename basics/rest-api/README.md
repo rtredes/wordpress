@@ -2,16 +2,6 @@
 
 This project demonstrates basic CRUD (Create, Read, Update, Delete) operations using the WordPress REST API.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Setup](#setup)
-- [Usage](#usage)
-  - [Create (POST)](#create-post)
-  - [Read (GET)](#read-get)
-  - [Update (PUT/PATCH)](#update-putpatch)
-  - [Delete (DELETE)](#delete-delete)
-
 ## Introduction
 
 This project provides PHP functions to interact with the WordPress REST API for performing CRUD operations on posts. It includes functions for creating, reading, updating, and deleting posts via API requests.
